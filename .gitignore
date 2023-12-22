@@ -15,3 +15,5 @@ meta-data
 archiso/packages.x86_64
 archiso/airootfs/etc/gdm/
 archiso/airootfs/etc/pacman.d/
+archiso/Packages/AUR/aur/
+archiso/Packages/AUR/aur_repo/
