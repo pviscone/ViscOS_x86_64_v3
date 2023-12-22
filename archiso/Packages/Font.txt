@@ -6,3 +6,8 @@ ttf-opensans
 noto-fonts
 noto-fonts-cjk
 opendesktop-fonts
+ttf-firacode-nerd
+ttf-nerd-fonts-symbols
+awesome-terminal-fonts
+ttf-hack
+powerline-fonts

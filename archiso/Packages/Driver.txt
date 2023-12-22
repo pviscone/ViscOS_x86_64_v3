@@ -1,4 +1,7 @@
 mesa
+spice-vdagent
+cups
+cups-pdf
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-libinput
@@ -8,6 +11,14 @@ xf86-input-void
 xf86-video-fbdev
 xf86-video-openchrome
 xf86-video-qxl
-xf86-video-vmware
+
+
+xf86-input-wacom
+libwacom
+iio-sensor-proxy
+
 nvidia-utils
-spice-vdagent
+nvidia-settings
+cuda
+cuda-tools
+cudnn

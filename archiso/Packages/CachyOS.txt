@@ -57,6 +57,7 @@ mlocate
 mobile-broadband-provider-info
 net-tools
 ntp
+poppler-glib
 python
 python-defusedxml
 qt5-xmlpatterns

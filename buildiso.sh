@@ -19,7 +19,7 @@ outFolder="${src_dir}/out"
 
 build_list_iso="kde"
 clean_first=true
-verbose=false
+verbose=true
 
 usage() {
     echo "Usage: ${0##*/} [options]"

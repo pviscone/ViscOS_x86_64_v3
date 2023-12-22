@@ -6,3 +6,4 @@ xorg-xinit
 xorg-xkill
 xorg-xrdb
 
+wayland-protocols
