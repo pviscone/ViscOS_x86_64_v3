@@ -9,8 +9,6 @@
 #capitaine-cursors
 #char-white
 #alacritty
-#avahi
-#breeze-gtk
 #file-roller
 #linux-cachyos
 #linux-cachyos-zfs
@@ -24,13 +22,14 @@
 #nss-mdns
 #profile-sync-daemon
 #vpnc
+#cachyos-kernel-manager
 
+avahi
 boost-libs
 cachyos-calamares-grub
 cachyos-cli-installer-new
 cachyos-hello
 cachyos-hooks
-cachyos-kernel-manager
 cachyos-keyring
 cachyos-mirrorlist
 cachyos-rate-mirrors
