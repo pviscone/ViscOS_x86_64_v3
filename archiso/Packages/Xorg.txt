@@ -1,0 +1,8 @@
+xdg-user-dirs-gtk
+xdg-utils
+xorg-apps
+xorg-server
+xorg-xinit
+xorg-xkill
+xorg-xrdb
+

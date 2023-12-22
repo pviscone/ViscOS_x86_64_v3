@@ -1,0 +1,6 @@
+networkmanager
+snapper
+timeshift
+grub-btrfs
+partitionmanager
+traceroute
