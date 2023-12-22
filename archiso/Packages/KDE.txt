@@ -69,6 +69,6 @@ xdg-desktop-portal-kde
 
 
 #Others
-lightly-qt
+
 lightlyshaders-git
 kvantum

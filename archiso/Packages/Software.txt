@@ -10,3 +10,6 @@ pdfmixtool
 mkvtoolnix-gui
 discord
 bitwarden
+telegram-desktop
+xournalpp
+obsidian

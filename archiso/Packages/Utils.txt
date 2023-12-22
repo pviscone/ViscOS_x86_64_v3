@@ -4,7 +4,6 @@ acpid
 networkmanager
 snapper
 timeshift
-timeshift-autosnap
 grub-btrfs
 traceroute
 power-profiles-daemon
@@ -22,9 +21,10 @@ qemu-emulators-full
 flatpak
 dnscrypt-proxy
 playerctl
-simplescreenrecorder
 pavucontrol
 redshift
 earlyoom
 distrobox
 docker
+podman
+capnet-assist

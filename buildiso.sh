@@ -9,6 +9,8 @@
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 # GNU General Public License for more details.
 
+#sudo ./buildiso.sh -p kde -v
+
 src_dir=$(pwd)
 [[ -r ${src_dir}/util-msg.sh ]] && source ${src_dir}/util-msg.sh
 import ${src_dir}/util.sh
@@ -20,6 +22,8 @@ outFolder="${src_dir}/out"
 build_list_iso="kde"
 clean_first=true
 verbose=true
+
+cat ${src_dir}/archiso/Packages/*.txt ${src_dir}/archiso/Packages/AUR/aur.txt > ${src_dir}/archiso/packages.x86_64
 
 usage() {
     echo "Usage: ${0##*/} [options]"
