@@ -3,6 +3,7 @@ chromium
 mpv
 vlc
 thunderbird
+systray-x-kde
 inkscape
 obs-studio
 bleachbit
