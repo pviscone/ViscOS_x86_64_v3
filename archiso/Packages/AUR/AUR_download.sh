@@ -2,7 +2,7 @@
 filename='aur.txt'
 mkdir -p ${PWD}/aur_repo
 mkdir -p ${PWD}/aur
-aur_repo=${PWD}/../aur/aur_repo
+aur_repo=${PWD}/aur_repo
 aur=${PWD}/aur
 #UNCOMMENT TO ADD CUSTOM REPO TO PACMAN.CONF (run just one time)
 #cat << EOF >> pacman.conf
