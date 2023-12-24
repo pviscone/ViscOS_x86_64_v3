@@ -5,6 +5,7 @@ vlc
 thunderbird
 systray-x-kde
 inkscape
+gimp
 obs-studio
 bleachbit
 pdfmixtool
@@ -14,3 +15,8 @@ bitwarden
 telegram-desktop
 xournalpp
 obsidian
+wezterm
+wezterm-shell-integration
+wezterm-terminfo
+mattermost-desktop
+pdfpc

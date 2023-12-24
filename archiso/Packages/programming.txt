@@ -1,3 +1,4 @@
+arduino
 bpython
 go
 rust
@@ -6,11 +7,11 @@ perl
 php
 lua
 doxygen
-aarch64-linux-gnu-gcc
+gcc
 gdb
 ccache
 gnuplot
-jupyter-nbclassic
+jupyter-notebook
 python-ipykernel
 python-numpy
 python-scipy
@@ -18,7 +19,7 @@ python-matplotlib
 python-sphinx
 ruff
 
-root-cuda
+root
 xrootd
 
 texstudio

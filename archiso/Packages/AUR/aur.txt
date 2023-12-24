@@ -23,3 +23,7 @@ ruby-fusuma
 tex-match-bin
 teamviewer
 gitkraken
+libinput-gestures
+libinput-gestures-qt
+zotero-bin
+lightlyshaders-git

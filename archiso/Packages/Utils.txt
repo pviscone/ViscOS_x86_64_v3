@@ -28,3 +28,8 @@ distrobox
 docker
 podman
 capnet-assist
+thermald
+imagemagick
+w3m
+git-lfs
+pre-commit

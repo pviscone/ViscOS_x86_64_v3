@@ -19,3 +19,7 @@ pdfgrep
 neofetch
 fzf
 speedtest-cli
+ranger
+yadm
+pdfgrep
+pdf2svg

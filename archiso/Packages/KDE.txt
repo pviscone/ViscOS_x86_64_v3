@@ -18,6 +18,8 @@ plasma-systemmonitor
 plasma-thunderbolt
 plasma-disks
 plasma-firewall
+plasma-browser-integration
+plasma-integration
 flatpak-kcm
 kdialog
 print-manager
@@ -66,9 +68,7 @@ kdecoration
 kinfocenter
 xdg-desktop-portal
 xdg-desktop-portal-kde
-
+kde-cli-tools
 
 #Others
-
-lightlyshaders-git
 kvantum

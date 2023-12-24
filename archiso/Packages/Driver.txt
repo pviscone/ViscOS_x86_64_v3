@@ -19,6 +19,4 @@ iio-sensor-proxy
 
 nvidia-utils
 nvidia-settings
-cuda
-cuda-tools
-cudnn
+
