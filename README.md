@@ -23,7 +23,7 @@ Subdirectories of glibc-hwcaps directories, in priority order:
 
 If the set of instruction is supported you will see (supported, searched) next to it.
 
-If your CPU doesn't support it of if you want to use the v4 version you have to change the repos in the pacman.conf. (See the CachyOS wiki https://wiki.cachyos.org/ )
+If your CPU doesn't support it or if you want to use the v4 version, you have to change the repos in the pacman.conf. (See the CachyOS wiki https://wiki.cachyos.org/ )
 
 ---
 
@@ -73,16 +73,16 @@ Usage: buildiso [options]
 `sudo pacman -S archiso mkinitcpio-archiso git squashfs-tools --needed`
 
 Clone:\
-`git clone https://github.com/cachyos/cachyos-live-iso.git cachyos-archiso`
+`[git clone https://github.com/pviscone/ViscOS_x86_64_v3.git`
 
-`cd cachyos-archiso`
+`cd ViscOS_x86_64_v3`
 
 ## Build
 
-`sudo ./buildiso.sh -p kde -v`
+`sudo ./buildiso.sh -v`
 
-## The iso appears at out folder
+## The iso appears in the out folder
 
 ---
 
-**Install selecting the option "offline installer"**
+**Boot and install by selecting the option "offline installer"**
