@@ -74,7 +74,7 @@ Usage: buildiso [options]
 `sudo pacman -S archiso mkinitcpio-archiso git squashfs-tools --needed`
 
 Clone:\
-`[git clone https://github.com/pviscone/ViscOS_x86_64_v3.git`
+`git clone https://github.com/pviscone/ViscOS_x86_64_v3.git`
 
 `cd ViscOS_x86_64_v3`
 
