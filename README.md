@@ -1,6 +1,7 @@
-This scripts are used to build the ISO of my custom version of Arch linux using the optimized CachyOS repo and settings.
+These scripts are used to build the ISO of my custom version of Arch Linux using the optimized CachyOS repo and settings.
 
-Be aware that this will work only on CPU that support the x86_64_v3 set of instructions.
+Be aware that this will work only on CPUs that support the x86_64_v3 set of instructions.
+(The first CPUs that support it were built in 2014/2015 (Intel Haswell 4th generation))
 
 To check if your CPU supports it run the following
 
@@ -20,7 +21,7 @@ Subdirectories of glibc-hwcaps directories, in priority order:
 
 ```
 
-If the set of instruction is supported you will see (supported, seached) next to it.
+If the set of instruction is supported you will see (supported, searched) next to it.
 
 If your CPU doesn't support it of if you want to use the v4 version you have to change the repos in the pacman.conf. (See the CachyOS wiki https://wiki.cachyos.org/ )
 
@@ -28,13 +29,13 @@ If your CPU doesn't support it of if you want to use the v4 version you have to 
 
 ## Package list
 
-Add the packages to install in the txt files in the /archiso/Packages folder or create a new txt files inside the folder.
+Add the packages to install in the txt files in the /archiso/Packages folder or create a new txt file inside the folder.
 
-You can add also  AUR packages, add them to the /archiso/Packages/AUR/aur.txt file 
+You can also add  AUR packages, add them to the /archiso/Packages/AUR/aur.txt file 
 
 #### Arch local repo
 
-First run the script in ./archiso/Packages/AUR/aur_download.sh . It will build a local repo containing all the AUR packages.
+First, run the script in ./archiso/Packages/AUR/aur_download.sh. It will build a local repo containing all the AUR packages.
 
 Insert the absolute path of the local repo in ./archiso/pacman.conf
 
