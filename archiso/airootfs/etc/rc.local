@@ -1,0 +1,21 @@
+#!/bin/sh -e
+#
+# rc.local
+#
+# This script is executed at the end of each multiuser runlevel.
+# Make sure that the script will "exit 0" on success or any other
+# value on error.
+#
+# In order to enable or disable this script just change the execution
+# bits.
+#
+# By default this script does nothing.
+
+while IFS= read -r line
+do
+    sudo systemctl enable --now $line
+done<"/etc/Services.txt"
+mv /etc/rc.local /etc/rc.local.old
+mv /etc/rc.local.default /etc/rc.local
+sudo systemctl disable --now rc-local
+exit 0
