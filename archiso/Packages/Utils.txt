@@ -11,13 +11,19 @@ flameshot
 bluedevil
 bluez
 bluez-utils
+bluez-tools
+blueman
 qbittorrent
 firewalld
 fuse2
 grub-customizer
 virt-manager
+virt-viewer
+virt-install
+virtiofsd
 qemu-desktop
 qemu-emulators-full
+qemu-tools
 flatpak
 dnscrypt-proxy
 playerctl
@@ -33,3 +39,4 @@ imagemagick
 w3m
 git-lfs
 pre-commit
+autorandr

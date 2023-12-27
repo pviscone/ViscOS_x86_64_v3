@@ -2,6 +2,7 @@ arduino
 bpython
 go
 rust
+rustup
 rust-analyzer
 perl
 php
@@ -12,6 +13,8 @@ gdb
 ccache
 gnuplot
 jupyter-notebook
+jupyterlab
+ipython
 python-ipykernel
 python-numpy
 python-scipy

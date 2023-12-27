@@ -15,6 +15,7 @@ difftastic
 z
 tar
 unrar
+unzip
 pdfgrep
 neofetch
 fzf

@@ -19,7 +19,6 @@ kded-rotation-git
 detect-tablet-mode-git
 digimend-kernel-drivers-dkms-git
 yoga-usage-mode
-ruby-fusuma
 tex-match-bin
 teamviewer
 gitkraken
@@ -27,3 +26,4 @@ libinput-gestures
 libinput-gestures-qt
 zotero-bin
 lightlyshaders-git
+upscayl-bin
