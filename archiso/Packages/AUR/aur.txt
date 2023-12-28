@@ -13,9 +13,7 @@ zoom
 skypeforlinux-stable-bin
 morgen-bin
 simplenote-electron-bin
-juliaup
 downgrade
-kded-rotation-git
 detect-tablet-mode-git
 digimend-kernel-drivers-dkms-git
 yoga-usage-mode
@@ -27,3 +25,4 @@ libinput-gestures-qt
 zotero-bin
 lightlyshaders-git
 upscayl-bin
+juliaup

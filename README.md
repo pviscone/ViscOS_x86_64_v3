@@ -36,7 +36,7 @@ You can also add  AUR packages, add them to the /archiso/Packages/AUR/aur.txt fi
 
 #### AUR local repo
 
-First, run the script in ./archiso/Packages/AUR/aur_download.sh. It will build a local repo containing all the AUR packages.
+First, run the script in ./archiso/Packages/AUR/AUR_download.sh. It will build a local repo containing all the AUR packages.
 
 Insert the absolute path of the local repo in ./archiso/pacman.conf
 
