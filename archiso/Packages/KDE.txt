@@ -1,6 +1,6 @@
-#polkit
-#polkit-kde-agent
-#polkit-qt5
+polkit
+polkit-kde-agent
+polkit-qt5
 
 
 
