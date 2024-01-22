@@ -1,12 +1,12 @@
  #!/bin/bash
 filename='aur.txt'
 
-mkdir -p ${PWD}/aur_repo
-mkdir -p ${PWD}/aur
+mkdir -p ${PWD}/../../../aur_repo
+mkdir -p ${PWD}/../../../aur
 
 mkpkg=${PWD}
-aur_repo=${PWD}/aur_repo
-aur=${PWD}/aur
+aur_repo=${PWD}/../../../aur_repo
+aur=${PWD}/../../../aur
 #UNCOMMENT TO ADD CUSTOM REPO TO PACMAN.CONF (run just one time)
 #cat << EOF >> pacman.conf
 #[AUR]
@@ -23,8 +23,8 @@ while read line; do
 	    else
 		    echo ${success}
 		    cd ./${line}
-		    $mkpkg/makepkg_paru -s --noconfirm
-		    #makepkg -s --noconfirm
+		    #$mkpkg/makepkg_paru -s --noconfirm
+		    makepkg -s --noconfirm
 		    mv -v ./*.pkg.* ${aur_repo}
 		    cd ..
 
