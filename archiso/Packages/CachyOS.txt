@@ -10,11 +10,8 @@
 #char-white
 #alacritty
 #file-roller
-#linux-cachyos
-#linux-cachyos-zfs
 #octopi
 #virtualbox-guest-utils
-#zfs-utils
 #vim
 #fastfetch-git
 #galculator
@@ -65,3 +62,4 @@ realtime-privileges
 rtkit
 smbclient
 yad
+zfs-utils
