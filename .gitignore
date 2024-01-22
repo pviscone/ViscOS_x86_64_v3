@@ -3,6 +3,8 @@ archiso-*.tar.gz*
 work/
 out/
 build/
+aur/
+aur_repo/
 *.iso
 *.img
 *.cer
