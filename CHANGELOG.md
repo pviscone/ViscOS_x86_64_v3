@@ -1,3 +1,65 @@
+# 24.04
+
+**Features:**
+- plymouth: Use plymouth and provide a themed boot animation
+- ISO: Switch back to X11 due to issues when setting the keyboard layout in calamares
+- Refind: New portioning layout
+- netinstall: KDE: Install xwaylandvideobridge as default
+- netinstall: Use lightdm instead of ly at various Desktop Environments, due to a bug in ly
+- systemd-boot: Use @saved for systemd-boot to boot all time in the previous booted kernel
+- cachyos-keyring: Refactor cachyos-keyring package and provide a cachyos-trusted
+- ISO: Use ZSTD 19 Compression for mkinitcpio image for ISO
+- Package Updates: linux-cachyos 6.8.2, pacman 6.1.0-5, mesa 24.0.4, Plasma 6.0.3, nvidia 550.67, cachyos-settings 39-2
+
+**Bug-Fixes:**
+- Autologin: Fix the autologin option when used together with sddm
+- xz: Provide a patched xz package
+- cachyos-settings: udev-rule don't set watermark_scale_factor to 125, since it increases the RAM usage massively
+- calamares: pacman-keyring use more simply method to integrate the keyring into the installation
+
+# 24.03.1
+
+**Features:**
+- netinstall: Remove extra kernels in the netinstall selection to avoid confusion by users. Other custom kernels can be installed via Kernel Manager
+- Kernel Manager: NVIDIA Modules are automatically installed when detected, Rebased for QT6, Fixed custom names when using LTO Option
+- Package Installer: Rebased on QT6, updated for pacman 6.1
+- Package Updates: linux-cachyos 6.8.1, pacman 6.1, mesa 24.0.3, Plasma 6.0.2, llvm 17.0.6
+
+**Bug-Fixes:**
+- NVIDIA: patched nvidia module to take the owner ship of nvidia.drm.modeset earlier to avoid issues on nvidia graphics
+- Refind: Don't install the lts kernel to avoid issues
+- shellprocess: Remove the liveusers directory completly
+
+
+# 24.03
+
+**Features:**
+- ISO: Plasma 6 is now shipped in the ISO and uses Wayland as default, GNOME ISO got dropped to avoid confusion about netinstall
+- Calamares: Rebased for QT6
+- refind: Add f2fs and zfs as option including luks2 encryption
+- mirrors: We provide now 2 global CDNs. One hosted by Cloudflare R2 and one hosted by Digital Ocean
+- mirrorlist: Fetch the online installer directly from cdn to provide a faster delivery
+- initcpiocfg: Use the new microcode hook for early loading the ucode
+- bootloader: Dont load the microcode with the bootloader anymore
+- Package Updates: linux-cachyos 6.7.9, mesa 24.0.2, zfs-utils 2.2.3
+
+**Bug-Fixes:**
+- pacstrap: Do not install config packages to provide the user a more clean selection of the installation
+- shellprocess_pacman: Also copy the ranked cachyos-v4-mirrorlists to the target
+
+
+# 24.02
+
+**Features:**
+- refind: Change layout from /boot/efi to /boot to provide more options of filesystems and encryption
+- Live-ISO: Cleanup and Sync the Live-ISO
+- Launch Installer: Add recommendation for the online installation
+- shell-configs: Add option to disable fastfetch when starting the terminal and add an "update" alias
+- netinstall: Add phonon-qt5-vlc to kde
+- Package Updates: linux-cachyos 6.7.5, mesa 23.3.5, gcc 13.2.1-12, glibc 2.39, mesa 24.0.1, nvidia 550.54.14
+
+
+
 # 23.12
 
 **Bug-fixes:**

@@ -16,6 +16,9 @@ meta-data
 *.qcow2
 archiso/packages.x86_64
 archiso/airootfs/etc/gdm/
-archiso/airootfs/etc/pacman.d/
+archiso/airootfs/etc/systemd/system/display-manager.service
+archiso/airootfs/etc/motd
+archiso/airootfs/etc/environment
+archiso/airootfs/etc/pacman.d/cachyos-mirrorlist
 archiso/Packages/AUR/aur/
 archiso/Packages/AUR/aur_repo/

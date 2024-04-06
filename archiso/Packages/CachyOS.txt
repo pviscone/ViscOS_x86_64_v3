@@ -22,8 +22,9 @@
 
 
 avahi
-boost-libs
-cachyos-calamares-grub
+bcachefs-tools
+ldns
+cachyos-calamares-qt6-grub
 cachyos-cli-installer-new
 cachyos-kernel-manager
 cachyos-hello
@@ -57,7 +58,6 @@ ntp
 poppler-glib
 python
 python-defusedxml
-qt5-xmlpatterns
 realtime-privileges
 rtkit
 smbclient

@@ -1,6 +1,6 @@
 polkit
 polkit-kde-agent
-polkit-qt5
+
 
 
 
@@ -9,7 +9,7 @@ polkit-qt5
 #### plasma ####
 
 plasma-desktop
-plasma-framework5
+libplasma
 plasma-nm
 plasma-pa
 plasma-workspace
@@ -36,9 +36,9 @@ breeze-gtk
 kde-gtk-config
 kdeplasma-addons
 kinit
-kio5
+kio
 kpmcore
-solid5
+solid
 
 ###### app ####
 
